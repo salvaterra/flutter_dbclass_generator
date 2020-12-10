@@ -73,9 +73,15 @@ void main(){
   static const String CREATE = "CREATE TABLE " + ${model.key.toUpperCase()}_DB_TABLE + " ("
       "id INTEGER PRIMARY KEY,"
   """;
+    int i=0;
+    var comma = ",";
     for (var f in fields.entries)
     {
-      s +="\t\t\t\"${f.key} ${dartSql[f.value]}, \"\n";
+      if (i==fields.length-1)
+        comma = "";
+            
+      s +="\t\t\t\"${f.key} ${dartSql[f.value]}${comma} \"\n";
+      i++;
     };
     s+="""
       ")";
