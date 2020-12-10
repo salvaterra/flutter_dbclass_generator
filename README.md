@@ -62,5 +62,5 @@ class DogRepository {
 
 In this repository
 
-db.dart
-dao/dao.dart
+- `db.dart`
+- `dao/dao.dart`
