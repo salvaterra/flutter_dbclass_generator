@@ -1,4 +1,4 @@
-# flutter_dbclass_generator
+# Flutter Sqlite Class Generator
 Simple script in Dart to Generate classes. Keep your code clean and reusable.
 
 Go from this:
@@ -57,3 +57,10 @@ class DogRepository {
   Future<void> deleteById(int id) => dao.deleteById(id);
 }
 ```
+
+# Additional DB files
+
+In this repository
+
+db.dart
+dao/dao.dart
