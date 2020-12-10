@@ -7,7 +7,7 @@ Go from this:
 
 to this:
 
-`class Dog extends BaseModel {
+```class Dog extends BaseModel {
   String name;
   int age;
 
@@ -54,4 +54,4 @@ class DogRepository {
   Future<void> delete(Dog entry) => dao.delete(entry);
 
   Future<void> deleteById(int id) => dao.deleteById(id);
-}`
+}```
