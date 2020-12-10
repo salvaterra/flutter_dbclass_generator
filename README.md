@@ -39,7 +39,7 @@ class DogRepository {
       " ("
           "id INTEGER PRIMARY KEY,"
           "name TEXT, "
-          "age INTEGER, "
+          "age INTEGER "
           ")";
 
   final dao = Dao<Dog>(Dog(), tableName: DOG_DB_TABLE);
