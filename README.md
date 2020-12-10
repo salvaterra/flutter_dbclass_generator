@@ -58,9 +58,15 @@ class DogRepository {
 }
 ```
 
-# Additional DB files
+# How to use
 
-In this repository
+- Copy files to your project folder. Recommended:
+  - `lib\db\db.dart`
+  - `lib\db\dao\dao.dart`
+  - `lib\tools\genClass.dart`
+- On your IDE create a new configuration to run `genClass.dart` as a command line program.
+- Execute the new configuration, copy and paste output into your own `lib\db\models.dart`
 
-- `db.dart`
-- `dao/dao.dart`
+# If you like
+
+Star it :-)
