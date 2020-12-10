@@ -1,5 +1,5 @@
 # Flutter Sqlite Class Generator
-Simple script in Dart to Generate classes. Keep your code clean and reusable.
+Simple, nonintrusive script in Dart to generate database and model classes. Keep your code clean and reusable.
 
 Go from this:
 
